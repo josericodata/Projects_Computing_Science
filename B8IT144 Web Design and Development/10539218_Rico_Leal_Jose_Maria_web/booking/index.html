@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<!--Entry Point:index.html | Author: Jose Maria Rico Leal, StudentID:10539218, Module:B8IT144-->
+	<head>
+		<title>Booking | Bed & Breakfast Galway</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="description" content="Bed and breakfast accomodation in Galway Ireland. Experience high-quality service.">
+		<meta name="keywords" content="galway, west coast, moher, B & B, cozy, live music, bed">
+		<meta name="viewport" content="Width=device-width, initial-scale=1">
+		<meta name="og:title" property="og:title" content="B&B Galway Ireland">
+		
+	</head>
+	
+	<body >
+		
+		<div id="wrapper_1">
+			
+		
+			<header>
+				
+				<div class="header">
+				<div class="wrap">
+					<div class="header-top">
+						<div class="logo">
+							<a href="#"><img src="../assets/images/logo.png" title="logo" class="responsive" /></a>
+						</div>
+						<div class="contact-info">
+							<p class="phone">Call us : <a href="https://www.eirphonebook.ie/q/name/">+353894520767</a></p>
+							<p class="gpa">Locate us : <a href="https://www.google.com/maps/d/u/0/viewer?msa=0&mid=1rqtMJhkReMKTEmmFGG464PYt3Ww&ll=53.43784092243239%2C-9.32522550000001&z=15">View map</a></p>
+							<p class="info">Tourist Info :<a href="http://claregalway.info/directory/listing/galway-tourist-office">ClareGalway</a></p>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<div class="header-top-nav">
+					<div class="wrap">
+						<ul>
+							<li><a href="../index.html">Home</a></li>
+							<li><a href="../about/index.html">About</a></li>
+							<li><a href="../services/index.html">Services</a></li>
+							<li><a href="../rooms/index.html">Rooms</a></li>
+							<li class="active"><a>Booking</a></li>
+							<li><a href="../contact/index.html">Contact</a></li>
+							<div class="clear"> </div>
+						</ul>
+					</div>
+				</div>
+				</div>
+								
+			</header>
+				<section id="format_h2">
+					     <h2>Bookings</h2>
+				       <form form id="contact-form" method="get" action="../index.html">
+				         <p>* Mandatory fields</p>
+				         <fieldset>
+				            <legend>Online Reservations & Bookings</legend>
+				            <p><label class="field" for="first_name"><span>*</span>First Name: </label><input class="form_input" name="first name" type="text" name="first_name" id="first_name" placeholder="Enter first name"></p>
+				            <p><label class="field" for="last_name"><span>*</span>Last Name: </label><input  class="form_input" name="last name" type="text" name="last_name" id="last_name" placeholder="Enter last name"></p>
+				            <p><label class="field" for="address_first_line"><span>*</span>Address First Line: </label><input class="form_input" name="address first line" type="text" name="address_first_line" id="address_first_line" placeholder="First line of your address" ></p>
+				            <p><label class="field" for="address_second_line">&nbsp;&nbsp;AddressSecondLine:  </label><input type="text" name="address_second_line" id="address_second_line" placeholder="Second line of your address"></p>
+				            <p><label class="field" for="city"><span>*</span>City: </label><input class="form_input" name="city" type="text" name="city" id="city" placeholder="Your city" ></p>
+				            <p><label class="field" for="country">&nbsp;&nbsp;Country: </label><input type="text" name="country" id="country" placeholder="Your country"></p>
+				            <p><label class="field" for="contact_number">&nbsp;&nbsp;Contact Number:  </label><input type="number" name="contact_number" id="contact_number" placeholder="eg.+353xxxxxxxxxxx" min="8"></p>
+				            <p><label class="field" for="email"><span>*</span>Email: </label><input class="form_input" name="email" type="email" name="email" id="email" placeholder="Enter Email Address" ></p>
+				            <p><label class="field"><span>*</span>Number of Guests: </label>
+
+				                <select class="form_input" name="number guests" id="select" class="field"  size="4" ></p>
+				                  
+				                  <option value="1 Guest">1 Guest</option>
+				                  <option value="2 Guest">2 Guest</option>
+				                  <option value="3 Guest">3 Guest</option>
+				                  <option value="4 Guest">4 Guest</option>
+				                  <option value="5+ please contact us">5+ please contact us</option>
+				                </select><br><br><br><br><br><br><br><br><br>
+
+				            <p><label class="field" for="check_in"><span>*</span>Check In Date:</label><input class="form_input" name="check-in date" type="date" name="check-in" id="check_in" ></p>
+				            <p><label class="field" for="check_out"><span>*</span>Check Out Date: </label><input class="form_input" name="check-out date" type="date" name="check-out" id="check_out" ></p>
+				            <p><label class="field" for="comments"><span></span>Comments: </label></p>
+				            <textarea name="comments" rows=3 cols=20 id="comments" placeholder="Enter Comments Here" ></textarea>
+				            <input class="submit_button" type="submit" value="Submit" onclick="print_out_error()">
+				            <input class="submit_button" type="reset" value="Reset Form"><br>
+				            <p id="error-list"> You have (<span id="error-count"></span>) errors</p>
+				            <span id="fail-message"></span>
+				             
+				         </fieldset>
+				       </form>
+    			</section>
+    			 <aside class="booking_contact_info">
+					      <h1>Booking Info</h1>
+					      <h2>Check-in Times:</h2>
+					      <a href="#"><img src="../assets/images/check_in.png" title ="Check-in Times" class="responsive"/></a>
+					      <ul><br>
+					        <li>The regular check-in times are daily from 11:00am - 5:30pm<p>If you plan to arrive outside of these hours give us a shout.</p></li>
+					        <li>Breakfast is served from 8am weekdays and 7:30am weekends.</li>
+					      </ul>
+					      <br><br><br><br>
+					     <h2>Accepted Methods of Payment:</h2></a>
+					      <a href="#"><img src="../assets/images/payments.png" title="Accepted Methods of Payment" class="responsive"/></a>
+					      <ul><br>
+					        <li>Debit,credit & prepaid cards are accepted.</li>
+					        <li>Cash and even pounds if you come from the North.</li>
+					        <li>Revolut & N26.</li>
+					        <li>Any other method not outlined above won't be accepted.</li>
+					        <li >All taxes are includes in rate.</li>
+					      </ul>
+    			</aside>
+						
+		</div>
+			
+
+		<footer>
+			<div class="row">
+				<div class="column" id="column_1">
+					
+					<h1>TripAdvisor Awards 2017 & 2019:</h1>
+					
+					<div id="logo-format-trip">
+					<a href="https://www.tripadvisor.ie/ShowTopic-g1-i12105-k6918596-TripAdvisor_Certificate_of_Excellence_What_does_it_mean-Tripadvisor_Support.html"><img src="../assets/images/tripadvisor.png" title="trip_image" class="responsive"/></a>
+					</div>
+				</div>
+				<div class="column" id="column_2">
+					<h1>Gillian Moore Bed & Breakfast Galway</h1>	
+					<h1>&copy; 2021</h1>
+				</div>
+
+
+				<div class="column" id="column_3">
+						<h1>Follow us on Social Media:</h1>
+					<div>
+						<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+						<a href="https://www.instagram.com/accounts/emailsignup/?hl=en" class="fa fa-instagram"></a>
+						<a href="https://twitter.com/login?lang=en-gb" class="fa fa-twitter"></a>
+						<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+						<a href="https://www.linkedin.com/home" class="fa fa-linkedin"></a>
+					</div>	
+					
+				</div>
+			</div>
+														
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script type="text/javascript" src="../assets/js/main.js"></script>
+	</body>
+</html>
+
+
+
+
+

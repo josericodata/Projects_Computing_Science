@@ -1,0 +1,694 @@
+/* Project: Gillian Moore B&B Galway - Author: Jose Maria Rico Leal, StudentID:10539218
+ Module:B8IT144 Web Design and Development */
+
+ /*-----Common settings across all pages--------------------------*/
+*{margin:0} 
+
+html, body{	
+height: 100%;   
+}
+
+#wrapper {
+float: left;
+width: 100%;
+min-height: 170%;/*Footer adjustment*/
+padding-bottom: 120px;
+box-sizing: border-box;	
+}
+
+@font-face {
+font-family: Pattaya;
+src: url(assets/fonts/Pattaya-Regular.ttf);
+src: url(../fonts/Pattaya-Regular.ttf);
+}
+
+@font-face {
+font-family: Roboto;
+src: url(assets/fonts/RobotoCondensed-Regular.ttf);
+src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+body{
+background: #F5F5DC;
+}
+
+.responsive {
+max-width: 100%;
+height: auto;
+}
+
+/*-------------------------Header---------------------------------*/
+.clear{
+clear:both;
+}
+
+.wrap{
+width:80%;
+margin:0 auto;
+}
+
+.header{
+background: url(../images/box1.png) repeat-x;
+}
+
+.header-top{
+padding: 41px 0 30px 0;
+}
+
+
+.logo{
+float:left;
+margin-top: 0.8vw;
+}
+
+.contact-info{
+float:right;
+}
+
+.contact-info p{
+font-family: Roboto;
+font-size: 1.2vw;
+font-weight: 400;
+color:black;
+text-transform: uppercase;
+}
+
+.contact-info p a{
+color:#d1d8e1;
+transition: 0.5s ease;
+-o-transition: 0.5s ease;
+-webkit-transition: 0.5s ease;
+}
+
+.contact-info p a:hover{
+color:#3B3B3B;
+}
+
+.header-top-nav ul li{
+display: inline-block;
+border-left: 1px solid rgba(85, 85, 85, 0.41);
+float: left;
+}
+
+
+.header-top-nav ul li a{
+color: #d1d8e1;
+font-family: Roboto;
+font-size: 0.9vw;
+font-weight: 400;
+text-transform: uppercase;
+display: block;
+padding: 11px 95.5px;
+transition: 0.5s ease;
+-o-transition: 0.5s ease;
+-webkit-transition: 0.5s ease;
+}
+
+@media screen and (max-height: 769px) {
+  .wrap{
+width:100%;
+margin:0 auto;
+}
+.header-top-nav ul li{
+display: inline-block;
+border-left: 1px solid rgba(85, 85, 85, 0.41);
+float: left;
+}
+.header-top-nav ul li a{
+color: #d1d8e1;
+font-family: Roboto;
+font-size: 0.9vw;
+font-weight: 400;
+text-transform: uppercase;
+display: block;
+padding: 11px 20px;
+transition: 0.5s ease;
+-o-transition: 0.5s ease;
+-webkit-transition: 0.5s ease;
+}
+}
+
+
+.header-top-nav li.active> a, .header-top-nav li> a:hover {
+color: #9ca8ac;
+background: #6e7a79;
+}
+
+.header-top-nav{
+background: url(../images/nav_bar.png) repeat-x;
+}
+
+.phone:before{
+content: url(../images/phone.png);
+vertical-align: middle;
+padding: 0px 5px 0px 0px;
+}
+.gpa:before{
+content:url(../images/pointer.png);
+vertical-align: middle;
+padding: 0px 5px 0px 0px;
+}
+
+.info:before{
+content:url(../images/info.png);
+vertical-align: middle;
+padding: 0px 5px 0px 0px;
+}
+
+
+
+/*------------------------------FOOTER----------------------------------------------------*/
+
+footer{
+float: left;
+width: 100%;
+height: 140px;
+background: #232520;
+margin-top: -130px;	/**Keep an eye on this**/
+}
+
+.column{
+float:left;
+width: 33.33%;
+font-family: Pattaya;
+color:#d1d8e1;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+#column_1{
+font-size: 0.4vw;
+text-align: center;
+padding-top: 8px;
+}
+
+#logo-format-trip img{
+list-style-type: none;
+border: 5px solid #ddd;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#column_2{
+font-size: 0.4vw;
+text-align: center;
+padding-top: 8px;
+padding-top: 40px;
+}
+
+#column_3{
+font-size: 1vw;/*Icon size*/
+text-align: center;
+padding-top: 10px;
+}
+
+#column_3 h1{
+font-size: 0.9vw;
+}	
+
+.fa {
+padding: .7vw;
+width: 1.3vw;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+
+}
+
+.fa:hover {
+opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-instagram {
+background: #FF33E9;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-youtube {
+background: #FF334F;
+color: white;
+}
+
+.fa-linkedin {
+background: #3337FF;
+color: white;
+}
+
+
+
+/*-----------------------------------------------------------Home_page-----------------------------------------------------*/
+/*specific home page welcome styles*/
+.home_title {
+text-align: center;
+font-size:1.5vw;
+font-weight:bold;
+margin: auto auto 1% auto;
+font-family: Roboto;
+}
+ 
+#home_format {
+float: left;
+text-align: center;
+margin: 0 0 2% 0%;
+border-right: solid;
+padding: 1%;
+font-family: Roboto;
+font-size: 1.1vw;
+max-width: 52%;
+height: auto;
+}
+
+#home_format  > dl {
+padding: 0 5% 0 5%;
+text-align: center;
+}
+
+#home_format  > dl > dt {
+margin: 4% 7% 4% 7%;
+font-weight: bold;
+}
+
+#things_to ul>li{
+text-align: center;
+font-size: 1.1vw;
+font-family: Roboto;
+}
+
+section > img {
+padding-bottom: 1.5%;
+padding-top: 1.5%;
+border-radius: 5%;
+}
+    
+aside {
+float: right;
+right: 4px;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+max-width: 45%;
+padding: 1%;
+font-family: Roboto;
+text-align: center;
+}
+
+aside > h3 {
+font-size: 1.1vw;
+}
+
+aside > a {
+font-size: 1.1vw;
+color:black;
+text-align: center;
+}
+
+aside > a > img {
+border-radius: 5%;
+}
+
+aside > hr {
+width: 40%;
+height: 0.2em;
+}
+    
+aside > ul > li {
+padding: 0.5%;
+}
+
+aside > fieldset {
+font-weight: bold;
+font-size: 0.9vw;
+border-radius: 5%;
+border: solid;
+}
+
+aside > fieldset > iframe {
+padding: 2%;
+margin: 3% 0 3% 0;
+max-width: 95%;
+border-radius: 5%;
+}
+
+#customer_reviews {
+font-size: 1.1vw;
+margin: 1%;
+max-width: 100%;
+}
+
+#customer_reviews > h3  {
+text-align: center;
+}
+
+#customer_reviews > img #home_format > a > img {
+box-sizing: border-box;
+float: none;
+padding: 0 4% 0 4%;
+position: relative;
+border-radius: 5%;
+}
+
+#customer_reviews ul > li {
+padding: 1.2%;
+position: relative;
+text-align: justify;
+}
+
+
+#customer_reviews ul > li > em {
+font-style: italic;
+font-weight: bold;
+}
+
+#customer_reviews hr {
+width: 40%;
+height: 0.2em;
+}
+
+    
+/*-----------------------------------------------------------About_page----------------------------------------------------*/
+
+#our_story {
+padding: 2%;
+text-align: justify;
+font-family: Roboto;
+font-size: 1.1vw;
+}
+
+#format_about {
+text-align: center;
+line-height: 1.25em;
+padding:0.5%;
+font-family: Roboto;
+font-size: 1.1vw;
+
+}
+
+#line_about {
+width:80%
+}
+
+#format_about h2 {
+padding:1%;
+}
+
+.aside_list {
+list-style-type:none;
+padding: 1%;
+}
+
+.aside_list li{
+text-align: justify;
+padding-left: 30vw;
+}
+
+
+
+/*-----------------------------------------------------------Services_page-------------------------------------------------*/
+
+section.section_1 {
+float: left;
+text-align: center;
+padding: 1%;
+font-family: Roboto;
+max-width: 40%;
+height: auto;
+left: 10vw;
+padding-top: 5vw;
+position: absolute;
+display: inline-block;
+box-sizing: border-box;
+}
+
+section.section_1 >  h1 {
+font-size: 1.8vw;
+}
+     
+section.section_1 >  h2 {
+font-size: 1.1vw;
+}
+
+section.section_1 > ol >li {
+text-align: left;
+color:#000000;
+font-size: 1.1vw;
+}
+
+section.section_1 a {
+text-align:center; 
+font-size: 1.1vw;
+color:#000000;
+}
+            
+.slideshow-container {
+position: relative;
+margin: auto;
+}
+
+section.section_1 img{
+border: 5px solid #9ca8ac; 
+}
+
+.text {
+color: white;
+font-size: 1.5vw;
+padding: 5px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+.numbertext {
+color: #9ca8ac;
+font-size: 1vw;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+.dot {
+height: 1vw;
+width: 1vw;
+margin: 0 2px;
+background-color: #9ca8ac;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+text-align:center;
+}
+
+.active {
+background-color: #717171;
+}
+
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {
+opacity: .4
+} 
+to {
+opacity: 1
+}
+}
+
+aside.things_to_services {
+padding-top: 50vw;
+float: right;
+right: 10vw;
+display: inline-block;
+position: relative;
+box-sizing: border-box;
+max-width: 35%;
+padding: 1%;
+font-family: Roboto;
+padding-top: 5vw;
+margin: 0 0 2% 0%;
+border-left:  solid;
+}
+
+
+/*-----------------------------------------------------------Rooms_page----------------------------------------------------*/
+
+section.section_2 {
+float: left;
+height: auto;
+text-align: center;
+position: absolute;
+display: inline-block;
+box-sizing: border-box;
+max-width: 45%;
+padding: 1%;
+}
+
+section.section_2 >  h1 {
+font-size: 3vw;
+}
+     
+section.section_2 >  h2 {
+font-size: 2.5vw;
+}
+
+section.section_2 > ol >li {
+text-align: left;
+color:white;
+font-size: 1.2vw;
+}
+
+section.section_2 a {
+text-align: ;
+font-size: 1.5vw;
+color:white;
+}
+   
+.slideshow-container1 {
+max-width: 1000px;
+position: relative;
+text-align:center;
+height: 500px;
+width: 600px;
+border: 5px solid black;
+padding-left: 1px;
+}
+    
+
+
+/*------------------------------------------------Booking&Contact_pages----------------------------------------------------*/
+#wrapper_1 {
+float: left;
+width: 100%;
+min-height: 100%;/*Footer adjustment*/
+padding-bottom: 140px;
+box-sizing: border-box; 
+}
+
+#format_h2>h2 {
+font-family:Roboto;
+font-size: 1.2vw;
+}
+
+form{
+width: 60%;
+height: auto;
+box-sizing: border-box;
+float: left;
+border-right:solid ;
+font-family: Roboto;
+font-size: 1.2vw;
+}
+
+legend {
+font-size: 3vw;
+margin: 4%;
+}
+
+label.field {
+text-align: right;
+width: 8vw;
+margin: vw;
+font-weight: bold;
+font-size: 1.2vw;
+font-family: Roboto;
+}
+
+input{
+font-size: 1.2vw;
+float: right;
+width: 15vw;
+margin-right: 2%;
+font-family: Roboto;
+}
+
+.submit_button {
+box-sizing: border-box;
+padding: 1%;
+margin-top: 1%;
+color: #9ca8ac;
+font-weight: bold;
+font-size: .8vw;
+width: 8vw;
+background-color: #464e49;
+}
+
+textarea {
+font-size: 1vw;
+float: right;
+width: 15vw;
+height: 6vw;
+margin-right: 5vw;
+resize: none;
+font-family: Roboto;
+}
+
+form > fieldset > p {
+margin: 2% 0 2% 0;
+}
+
+#select{
+position: absolute;
+right: 42%;
+color:orange;
+font-family: Roboto;
+font-size: 1.2vw;
+}
+
+aside.booking_contact_info {
+float: right;
+right: 10%;
+height: auto;
+text-align: center;
+position: absolute;
+display: inline-block;
+box-sizing: border-box;
+max-width: 20%;
+padding: 1%;
+}
+
+aside >  h1 {
+font-size: 2vw;
+}
+     
+aside >  h2 {
+font-size: 1.5vw;
+}
+
+aside > a > img {
+border-radius: 8%;
+width: auto;
+height: auto;
+}
+  
+aside > ul > li {
+padding: 0.5%;
+list-style-type: none;
+text-align: left;
+font-size: 1.2vw;
+}
+
+
+

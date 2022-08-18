@@ -1,0 +1,13 @@
+C:\Users\josemaria.ricoleal\OneDrive\B8IT112 Principles of Programming (B8IT112_2021_TME1S)\CA\obj\Debug\netcoreapp3.1\CA.AssemblyInfoInputs.cache
+C:\Users\josemaria.ricoleal\OneDrive\B8IT112 Principles of Programming (B8IT112_2021_TME1S)\CA\obj\Debug\netcoreapp3.1\CA.AssemblyInfo.cs
+C:\Users\josemaria.ricoleal\OneDrive\B8IT112 Principles of Programming (B8IT112_2021_TME1S)\CA\obj\Debug\netcoreapp3.1\CA.csproj.CoreCompileInputs.cache
+C:\Users\josemaria.ricoleal\OneDrive\B8IT112 Principles of Programming (B8IT112_2021_TME1S)\CA\bin\Debug\netcoreapp3.1\CA.exe
+C:\Users\josemaria.ricoleal\OneDrive\B8IT112 Principles of Programming (B8IT112_2021_TME1S)\CA\bin\Debug\netcoreapp3.1\CA.deps.json
+C:\Users\josemaria.ricoleal\OneDrive\B8IT112 Principles of Programming (B8IT112_2021_TME1S)\CA\bin\Debug\netcoreapp3.1\CA.runtimeconfig.json
+C:\Users\josemaria.ricoleal\OneDrive\B8IT112 Principles of Programming (B8IT112_2021_TME1S)\CA\bin\Debug\netcoreapp3.1\CA.runtimeconfig.dev.json
+C:\Users\josemaria.ricoleal\OneDrive\B8IT112 Principles of Programming (B8IT112_2021_TME1S)\CA\bin\Debug\netcoreapp3.1\CA.dll
+C:\Users\josemaria.ricoleal\OneDrive\B8IT112 Principles of Programming (B8IT112_2021_TME1S)\CA\bin\Debug\netcoreapp3.1\CA.pdb
+C:\Users\josemaria.ricoleal\OneDrive\B8IT112 Principles of Programming (B8IT112_2021_TME1S)\CA\obj\Debug\netcoreapp3.1\CA.csprojAssemblyReference.cache
+C:\Users\josemaria.ricoleal\OneDrive\B8IT112 Principles of Programming (B8IT112_2021_TME1S)\CA\obj\Debug\netcoreapp3.1\CA.dll
+C:\Users\josemaria.ricoleal\OneDrive\B8IT112 Principles of Programming (B8IT112_2021_TME1S)\CA\obj\Debug\netcoreapp3.1\CA.pdb
+C:\Users\josemaria.ricoleal\OneDrive\B8IT112 Principles of Programming (B8IT112_2021_TME1S)\CA\obj\Debug\netcoreapp3.1\CA.genruntimeconfig.cache
